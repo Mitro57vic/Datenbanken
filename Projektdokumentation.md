@@ -18,6 +18,7 @@ Filip Mitrovic, Filip Kritzner Raul Gilardoni und Lennard Bühler
 ### 1.1 Ihr Projekt
 
 
+Dieses Projekt zielt darauf ab, eine einfache Benutzer- und Notizverwaltungsanwendung zu entwickeln, die MongoDB als NoSQL-Datenbank verwendet. Benutzer können Profile erstellen, aktualisieren und löschen sowie Notizen hinzufügen, anzeigen, bearbeiten und entfernen. MongoDB Compass wird genutzt, um die Datenbank zu verwalten und zu überwachen. Zu den Hauptfunktionen gehören das Erstellen und Verwalten von Daten in MongoDB, das Durchführen von Backups und Wiederherstellungen sowie das Erstellen von Indizes zur Leistungsverbesserung. Darüber hinaus ermöglicht das Projekt die Nutzung von Volltextsuche und die Visualisierung der Datenstruktur. Das Ziel ist es, eine flexible und skalierbare Lösung bereitzustellen, die eine einfache Handhabung und effiziente Datenverwaltung bietet.
 
 
 
