@@ -105,14 +105,13 @@ Dieses Projekt zielt darauf ab, eine einfache Benutzer- und Notizverwaltungsanwe
 
 ## 3 Entscheiden
 
-Wir haben uns entschieden einen Timer einzubauen, da uns dies schon im letzten Projekt gut gelungen ist und es praktisch ist für unser Spiel.
+Wir haben uns entschieden mit MongoDB zu arbeiten, da wir und damit im Modul 165 beschäftigen und uns in diesem Thema vertiefen und gut vorbereiten möchten.
 
-Wir haben uns entschieden ein System einzubauen, dass bei 10 erzielten Punkten das Spiel beendet, damit das Spiel auch ein Punktlimit besitzt.
+Wir haben uns für MongoDB anstatt SQL entschieden, da wir mit SQL schon 2 Modul absolviert haben und diesmal mit einer neuen Sprache arbeiten wollten.
 
 
 ## 4 Realisieren
 
-Hier ist die Realisieren-Tabelle mit variierenden Zeiten für die tatsächliche Ausführung:
 
 ### Realisieren
 
