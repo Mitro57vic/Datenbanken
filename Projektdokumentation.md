@@ -11,6 +11,8 @@ Filip Mitrovic, Filip Kritzner Raul Gilardoni und Lennard Bühler
 |   17.05.24    | 0.0.1   |Wir haben besprochen was wir Programmieren möchten in diesem Projekt und haben ein Github Repository erstellt. |
 |  24.05.24    | 0.0.2   |Wir haben uns für ein Projekt mit Datenbanken entschieden und haben geplant wie wir dieses Projekt umsetzen möchten. Projektdokumentation wurde erweitert. |
 |   31.05.24    | 0.1.0   |Umsetzung begonnen und Projektdoku erweitert |
+| 07.06.24    | 0.2.0   |Dokumentation erweitert und die wichtigsten bestandteile unseres Programmes realisiert. |
+|   14.06.24    | 1.0.0   |Programm fertig Programmiert und angefangen Portfolio zu erstellen |
 
 
 ## 1 Informieren
@@ -74,6 +76,7 @@ Dieses Projekt zielt darauf ab, eine einfache Benutzer- und Notizverwaltungsanwe
 
 ### 1.4 Diagramme
 
+![image](https://github.com/Mitro57vic/Datenbanken/assets/110892641/a7b5edab-5022-443b-9ab4-8392430c3c5b)
 
 
 ## 2 Planen
