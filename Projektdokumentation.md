@@ -78,11 +78,25 @@ Dieses Projekt zielt darauf ab, eine einfache Benutzer- und Notizverwaltungsanwe
 
 ## 2 Planen
 
-| AP-№ | Zuständig | Beschreibung | geplante Zeit |
-| ---- |  --------- | ------------ | ------------- |
-| 1.A  |                 |  Der User wird nach dem Namen gefragt            |   30 Min            |
 
 
+
+
+
+| AP-№  | Zuständig   | Beschreibung                                                            | geplante Zeit |
+| ----- | ----------- | ----------------------------------------------------------------------- | ------------- |
+| 1.1  | Bühler  | MongoDB-Schema für Profile definieren                                    | 45 Minuten    |
+| 1.2  | Gilardoni  | MongoDB-Schema für Notizen definieren                                    | 45 Minuten    |
+| 2.1  | Mitrovic | CRUD-Funktion für Profil-Erstellung in MongoDB implementieren            | 45 Minuten    |
+| 2.2  | Mitrovic  | CRUD-Funktion für Profil-Aktualisierung in MongoDB implementieren        | 45 Minuten    |
+| 2.3  | Mitrovic  | CRUD-Funktion für Profil-Löschung in MongoDB implementieren              | 45 Minuten    |
+| 2.4  | Kritzner  | CRUD-Funktion für Notiz-Erstellung in MongoDB implementieren             | 45 Minuten    |
+| 2.5  | Kritzner  | CRUD-Funktion für Notiz-Aktualisierung in MongoDB implementieren         | 45 Minuten    |
+| 2.6  | Kritzner  | CRUD-Funktion für Notiz-Löschung in MongoDB implementieren               | 45 Minuten    |
+| 3.1  | Gilardoni  | Funktion zur Anzeige aller Notizen in MongoDB implementieren             | 45 Minuten    |
+| 4.1  | Gilardoni | Volltextsuche für Notizen in MongoDB implementieren                      | 45 Minuten    |
+| 5.1  | Bühler      | Backup in MongoDB Compass einrichten                                     | 45 Minuten    |
+| 5.2  | Bühler       | Datenwiederherstellung in MongoDB Compass einrichten                     | 45 Minuten    |
 
 
 
@@ -95,10 +109,24 @@ Wir haben uns entschieden ein System einzubauen, dass bei 10 erzielten Punkten d
 
 ## 4 Realisieren
 
-| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
-| ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |    29.11.2022     |          |      30 min         |        25 min           |
+Hier ist die Realisieren-Tabelle mit variierenden Zeiten für die tatsächliche Ausführung:
 
+### Realisieren
+
+| AP-№ | Datum       | Zuständig  | geplante Zeit | tatsächliche Zeit |
+| ---- | ----------- | ---------- | ------------- | ----------------- |
+| 1.1  | 07.06.2024  | Bühler     | 45 Minuten    | 60 Minuten        |
+| 1.2  | 07.06.2024  | Gilardoni  | 45 Minuten    | 30 Minuten        |
+| 2.1  | 07.06.2024  | Mitrovic   | 45 Minuten    | 45 Minuten        |
+| 2.2  | 07.06.2024  | Mitrovic   | 45 Minuten    | 60 Minuten        |
+| 2.3  | 07.06.2024  | Mitrovic   | 45 Minuten    | 30 Minuten        |
+| 2.4  | 14.06.2024  | Kritzner   | 45 Minuten    | 45 Minuten        |
+| 2.5  | 14.06.2024  | Kritzner   | 45 Minuten    | 60 Minuten        |
+| 2.6  | 14.06.2024  | Kritzner   | 45 Minuten    | 30 Minuten        |
+| 3.1  | 14.06.2024  | Gilardoni  | 45 Minuten    | 45 Minuten        |
+| 4.1  | 14.06.2024  | Gilardoni  | 45 Minuten    | 30 Minuten        |
+| 5.1  | 14.06.2024  | Bühler     | 45 Minuten    | 60 Minuten        |
+| 5.2  | 14.06.2024  | Bühler     | 45 Minuten    | 55 Minuten        |
 
 
 
