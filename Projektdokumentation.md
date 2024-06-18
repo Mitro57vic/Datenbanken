@@ -95,11 +95,12 @@ Dieses Projekt zielt darauf ab, eine einfache Benutzer- und Notizverwaltungsanwe
 | 2.3  | Mitrovic  | CRUD-Funktion für Profil-Löschung in MongoDB implementieren              | 45 Minuten    |
 | 2.4  | Kritzner  | CRUD-Funktion für Notiz-Erstellung in MongoDB implementieren             | 45 Minuten    |
 | 2.5  | Kritzner  | CRUD-Funktion für Notiz-Aktualisierung in MongoDB implementieren         | 45 Minuten    |
-| 2.6  | Kritzner  | CRUD-Funktion für Notiz-Löschung in MongoDB implementieren               | 45 Minuten    |
-| 3.1  | Gilardoni  | Funktion zur Anzeige aller Notizen in MongoDB implementieren             | 45 Minuten    |
+| 2.6  | Mitrovic  | CRUD-Funktion für Notiz-Löschung in MongoDB implementieren               | 45 Minuten    |
+| 3.1  | Mitrovic  | Funktion zur Anzeige aller Notizen in MongoDB implementieren             | 45 Minuten    |
 | 4.1  | Gilardoni | Volltextsuche für Notizen in MongoDB implementieren                      | 45 Minuten    |
 | 5.1  | Bühler      | Backup in MongoDB Compass einrichten                                     | 45 Minuten    |
 | 5.2  | Bühler       | Datenwiederherstellung in MongoDB Compass einrichten                     | 45 Minuten    |
+|6.1   |Mitrovic|        C# verbindung mit MongoDb Compass erstellen        |30 Minuten|
 
 
 
@@ -115,35 +116,52 @@ Wir haben uns für MongoDB anstatt SQL entschieden, da wir mit SQL schon 2 Modul
 
 ### Realisieren
 
-| AP-№ | Datum       | Zuständig  | geplante Zeit | tatsächliche Zeit |
+| AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----------- | ---------- | ------------- | ----------------- |
-| 1.1  | 07.06.2024  | Bühler     | 45 Minuten    | 60 Minuten        |
-| 1.2  | 07.06.2024  | Gilardoni  | 45 Minuten    | 30 Minuten        |
-| 2.1  | 07.06.2024  | Mitrovic   | 45 Minuten    | 45 Minuten        |
-| 2.2  | 07.06.2024  | Mitrovic   | 45 Minuten    | 60 Minuten        |
-| 2.3  | 07.06.2024  | Mitrovic   | 45 Minuten    | 30 Minuten        |
-| 2.4  | 14.06.2024  | Kritzner   | 45 Minuten    | 45 Minuten        |
-| 2.5  | 14.06.2024  | Kritzner   | 45 Minuten    | 60 Minuten        |
-| 2.6  | 14.06.2024  | Kritzner   | 45 Minuten    | 30 Minuten        |
-| 3.1  | 14.06.2024  | Gilardoni  | 45 Minuten    | 45 Minuten        |
-| 4.1  | 14.06.2024  | Gilardoni  | 45 Minuten    | 30 Minuten        |
-| 5.1  | 14.06.2024  | Bühler     | 45 Minuten    | 60 Minuten        |
-| 5.2  | 14.06.2024  | Bühler     | 45 Minuten    | 55 Minuten        |
-
+| 1.1 | 07.06.2024 | Bühler | 45 Minuten | 60 Minuten |
+| 1.2 | 07.06.2024 | Gilardoni | 45 Minuten | 30 Minuten |
+| 2.1 | 07.06.2024 | Mitrovic | 45 Minuten | 45 Minuten |
+| 2.2 | 07.06.2024 | Mitrovic | 45 Minuten | 60 Minuten |
+| 2.3 | 07.06.2024 | Mitrovic | 45 Minuten | 30 Minuten |
+| 2.4 | 14.06.2024 | Kritzner | 45 Minuten | 45 Minuten |
+| 2.5 | 14.06.2024 | Kritzner | 45 Minuten | 60 Minuten |
+| 2.6 | 14.06.2024 | Mitrovic | 45 Minuten | 30 Minuten |
+| 3.1 | 14.06.2024 | Mitrovic | 45 Minuten | 45 Minuten |
+| 4.1 | 14.06.2024 | Gilardoni | 45 Minuten | 30 Minuten |
+| 5.1 | 14.06.2024 | Bühler | 45 Minuten | 60 Minuten |
+| 5.2 | 14.06.2024 | Bühler | 45 Minuten | 55 Minuten |
+| 6.1 | 14.06.2024 | Mitrovic | 30 Minuten | 30 Minuten |
 
 
 ## 5 Kontrollieren
 
 ### 5.1 Testprotokoll
 
-| TC-№ | Datum | Resultat | Tester |
-| ---- | ----- | -------- | ------ |
-| 1.1  |      |     Funktioniert      |       |
+
+
+### Testprotokoll
+
+| TC-№ | Datum       | Resultat     | Tester         |
+|------|-------------|--------------|----------------|
+| 1.1  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 1.2  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 2.1  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 2.2  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 2.3  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 2.4  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 2.5  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 2.6  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 3.1  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 4.1  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 5.1  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 5.2  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+| 6.1  | 12.06.2024  | Funktioniert | Filip Mitrovic |
+
 
 
 `Fazit:`
 
-Die wichtigsten Teile des Programmes sind mit Erfolg ausgegangen, somit ist unser Programm spielbar. Doch Leider konnten wir wegen geringer Zeit nicht alle unsere Wünsche für das Programm erfüllen.
+Wir konnten dieses Projekt erfolgreich abschliessen, da die Teamarbeit und Kommunikation hervorragend waren und massgeblich zu unserem Erfolg beigetragen haben
 
 ## 6 Auswerten
 
