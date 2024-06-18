@@ -78,6 +78,9 @@ Dieses Projekt zielt darauf ab, eine einfache Benutzer- und Notizverwaltungsanwe
 
 ![image](https://github.com/Mitro57vic/Datenbanken/assets/110892641/a7b5edab-5022-443b-9ab4-8392430c3c5b)
 
+![image](https://github.com/Mitro57vic/Datenbanken/assets/110892641/568ebdae-cf6a-409b-b782-408f015baf01)
+
+
 
 ## 2 Planen
 
