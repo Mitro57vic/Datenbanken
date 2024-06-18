@@ -1,0 +1,95 @@
+Vorlage wie wir es in MongoDB Compass implementiert haben
+
+// MongoDB-Datenbank- und -Sammlungen-Einrichtung
+use UserNoteManagementDB;
+
+// Benutzerprofile-Sammlung
+db.createCollection("userProfiles");
+
+// Beispiel-Daten für Benutzerprofile
+db.userProfiles.insertMany([
+  {
+    "_id": ObjectId("60b725f10c9fefac3471a1a4"), // Beispieldaten
+    "username": "MitroGoal",
+    "email": "Mitrogoal.Goat@gmail.com",
+    "password": "Goat", // Nur für Beispiel; echte Passwörter sollten gehasht und gesalzen werden
+    "created_at": new Date(),
+    "updated_at": new Date()
+  },
+  {
+    "_id": ObjectId("60b725f10c9fefac3471a1a5"),
+    "username": "mimi",
+    "email": "mimi.gigi@gmail.com",
+    "password": "maul",
+    "created_at": new Date(),
+    "updated_at": new Date()
+  }
+]);
+
+// Notizen-Sammlung
+db.createCollection("notes");
+
+// Beispiel-Daten für Notizen
+db.notes.insertMany([
+  {
+    "_id": ObjectId("60b7264f0c9fefac3471a1a6"),
+    "user_id": ObjectId("60b725f10c9fefac3471a1a4"),
+    "title": "Einkaufsliste",
+    "content": "Milch, Brot, Eier",
+    "created_at": new Date(),
+    "updated_at": new Date()
+  },
+  {
+    "_id": ObjectId("60b7264f0c9fefac3471a1a7"),
+    "user_id": ObjectId("60b725f10c9fefac3471a1a5"),
+    "title": "Projektideen",
+    "content": "MongoDB-Anwendung entwickeln",
+    "created_at": new Date(),
+    "updated_at": new Date()
+  }
+]);
+
+// Benutzerprofil erstellen
+db.userProfiles.insertOne({
+  "username": "new_user",
+  "email": "new.user@example.com",
+  "password": "hashedpassword",
+  "created_at": new Date(),
+  "updated_at": new Date()
+});
+
+// Benutzerprofil aktualisieren
+db.userProfiles.updateOne(
+  { "_id": ObjectId("60b725f10c9fefac3471a1a4") },
+  { $set: { "email": "herhart.banger@hotmail.com", "updated_at": new Date() } }
+);
+
+// Benutzerprofil löschen
+db.userProfiles.deleteOne({ "_id": ObjectId("60b725f10c9fefac3471a1a4") });
+
+// Notiz erstellen
+db.notes.insertOne({
+  "user_id": ObjectId("60b725f10c9fefac3471a1a5"),
+  "title": "Filips Notiz",
+  "content": "Spreiti isch szene",
+  "created_at": new Date(),
+  "updated_at": new Date()
+});
+
+// Notizen anzeigen
+db.notes.find({ "user_id": ObjectId("60b725f10c9fefac3471a1a5") }).pretty();
+
+// Notiz aktualisieren
+db.notes.updateOne(
+  { "_id": ObjectId("60b7264f0c9fefac3471a1a7") },
+  { $set: { "content": "Aktualisierter Notizinhalt", "updated_at": new Date() } }
+);
+
+// Notiz löschen
+db.notes.deleteOne({ "_id": ObjectId("60b7264f0c9fefac3471a1a7") });
+
+// Volltextsuche in Notizen (erfordert Textindex)
+db.notes.createIndex({ "title": "text", "content": "text" });
+db.notes.find({ $text: { $search: "Einkaufsliste" } }).pretty();
+
+
